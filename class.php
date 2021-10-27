@@ -59,7 +59,7 @@ class YourSimpleNewsComp extends CBitrixComponent
 		return $arParams;
 	}
 
-	/**
+     /**
      * Spam
      * @return CAllMain|CMain
      */
@@ -119,7 +119,7 @@ class YourSimpleNewsComp extends CBitrixComponent
 
 	/**
 	 * Runner
-	 * @return hz
+	 * @return void
 	 */
 	public function executeComponent()
 	{
