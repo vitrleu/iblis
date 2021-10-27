@@ -3,7 +3,7 @@
 <ul class="nav nav-tabs">
     <?php foreach($arResult['years'] as $year):?>
     <li class="nav-item">
-        <a class="nav-link<?if($year == $arResult['current']):?> active" aria-current="page<?endif?>" href="?year=<?=$year?>"><?=$year?></a>
+        <a class="nav-link<?if($year == $arResult['current']):?> active" area-current="page<?endif?>" href="?year=<?=$year?>"><?=$year?></a>
     </li>
   <?php endforeach?>
 </ul>
